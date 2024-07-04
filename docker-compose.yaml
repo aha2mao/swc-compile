@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  swc-compile:
+    container_name: swc-compile
+    build: .
+    image: swc-compile:latest
+    restart: always
